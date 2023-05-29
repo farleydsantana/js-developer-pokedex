@@ -20,6 +20,34 @@
     <!-- Nosso CSS -->
     <link rel="stylesheet" href="/assets/css/global.css">
     <link rel="stylesheet" href="/assets/css/pokedex.css">
+    <style>
+        /* Estilos para os cards dos Pokémon */
+        .pokemon-card {
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .pokemon-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Estilos para os botões */
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ffcc00;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .button:hover {
+            background-color: #ffaa00;
+        }
+    </style>
 </head>
 
 <body>
